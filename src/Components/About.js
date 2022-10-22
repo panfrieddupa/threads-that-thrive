@@ -38,7 +38,7 @@ class About extends Component {
                             Cassidy ElDarazi
                         </div>
                         <div className="flex-1">
-                            - President
+                            The President
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@ class About extends Component {
                             Edward Simone
                         </div>
                         <div className="flex-1">
-                            - Director Overseeing Finance
+                            Chair Overseeing Finance
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ class About extends Component {
                             Ryan Seggie
                         </div>
                         <div className="flex-1">
-                            - Director Overseeing Communication
+                            Chair Overseeing Communication
                         </div>
                     </div>
 
@@ -65,7 +65,7 @@ class About extends Component {
                             Eddy ElDarazi
                         </div>
                         <div className="flex-1">
-                            - Director Overseeing 
+                            Chair of the Board 
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@ class About extends Component {
                             Ciara Doehrs
                         </div>
                         <div className="flex-1">
-                            - Director Overseeing 
+                            Chair Overseeing Events
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@ class About extends Component {
                             Rebekah Bulych
                         </div>
                         <div className="flex-1">
-                            - Director Overseeing Technical Operations
+                            Chair Overseeing Technical Operations
                         </div>
                     </div>
                 </div>

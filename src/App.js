@@ -123,7 +123,7 @@ function App() {
 
                     <footer className=" bg-ttt_blue_light px-4 pb-6 md:px-12 md:pb-8">
                         <div className="mb-0 font-special-elite">
-                            <div className="h-36 md:h-52 text-sm lg:text-md md:text-md flex items-center justify-between">
+                            <div className="h-36 md:h-52 text-sm lg:text-md md:text-md flex items-center md:justify-between">
                                 <div className="">
                                 <Link to="/">
                                     <img
@@ -134,26 +134,26 @@ function App() {
                                 </Link>
                                 </div>
 
-                                <div className="flex flex-wrap">
-                                <Link to="/" className="md:mr-8 mr-4 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                <div className="pl-4 flex flex-wrap">
+                                <Link to="/" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Home
                                 </Link>
-                                {/* <Link to="/programs" className="md:mr-8 mr-2 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                {/* <Link to="/programs" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Programs
                                 </Link> */}
-                                <Link to="/about" className="md:mr-8 mr-4 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    About Us
+                                <Link to="/about" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                    About
                                 </Link>
-                                <Link to="/events" className="md:mr-8 mr-4 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                <Link to="/events" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Events
                                 </Link>
-                                {/* <Link to="/donate" className="md:mr-8 mr-4 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                {/* <Link to="/donate" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Donate
                                 </Link> */}
-                                <Link to="/contact" className="md:mr-8 mr-4 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    Contact Us
+                                <Link to="/contact" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                    Contact
                                 </Link>
-                                {/* <Link to="/reviews" className="md:mr-8 mr-2 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                {/* <Link to="/reviews" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Testimonials
                                 </Link> */}
                                 </div>

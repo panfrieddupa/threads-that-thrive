@@ -6,10 +6,10 @@ class Events extends Component {
 
                 <div className='md:flex flex-wrap'>
                     <div className='flex-1'>
-                        <h1 className='text-4xl md:text-5xl font-bold text-center pt-10'>
-                            Upcoming <br/>Workshops
+                        <h1 className='text-4xl font-source-serif-pro md:text-5xl font-bold text-center pt-10'>
+                            Upcoming <wbr />Workshops
                             </h1>
-                            <hr className="w-80 rounded border-0 h-1 mt-1 mb-12 bg-ttt_blue_dark mx-auto " />
+                            <hr className="w-80 md:w-7/12 rounded border-0 h-1 mt-1 mb-12 bg-ttt_blue_dark mx-auto " />
 
                         <ul className='pl-[38%] list-disc text-lg md:text-2xl font-source-serif-pro font-semibold'>
                             <li className='pb-2'>
@@ -28,10 +28,10 @@ class Events extends Component {
                         </p>
                     </div>
                     <div className='flex-1'>
-                    <iframe title='Threads Registration Form'
+                    <iframe
+                    className='w-full'
+                        title='Threads Registration Form'
                         src="https://docs.google.com/forms/d/e/1FAIpQLSdBYXlP7IbVMRIMQtdtTy8YD3hmyerREF4hJImM-_9RKq174w/viewform?embedded=true"
-                        width="800"
-                        height="1000"
                         frameborder="0"
                         marginHeight="0"
                         marginWidth="0"

@@ -6,10 +6,15 @@ function Contact() {
       return <p>Your message was sent, thank you!</p>;
   }
   return (
-    
-      <form onSubmit={handleSubmit} className='w-9/12 lg:w-6/12 xl:5/12 mx-auto text-md lg:text-lg'>
+    <div>
+        <h2 className="text-4xl md:text-5xl font-source-serif-pro font-bold text-center">
+                        Contact Us
+                    </h2>
+                    <hr className="w-80 rounded border-0 h-1 mt-1 mb-12 bg-ttt_blue_dark mx-auto" />
+
+      <form onSubmit={handleSubmit} className='w-9/12 font-source-serif-pro lg:w-6/12 xl:5/12 mx-auto text-md lg:text-lg'>
       
-      <div className='pb-4 font-source-serif-pro font-semibold'>
+      <div className='pb-4 font-semibold'>
         <label htmlFor="email">
         Email Address
       </label>
@@ -25,7 +30,7 @@ function Contact() {
         errors={state.errors}
       />
       </div>
-      <div className='pb-4 font-source-serif-pro font-semibold'>
+      <div className='pb-4 font-semibold'>
       <label htmlFor="fullname">
         Preferred Full Name
       </label>
@@ -41,7 +46,7 @@ function Contact() {
         errors={state.errors}
       />
       </div>
-      <div className='font-source-serif-pro font-semibold'>
+      <div className='font-semibold'>
       <label htmlFor="message">
         Your Message
       </label>
@@ -56,10 +61,11 @@ function Contact() {
         errors={state.errors}
       />
       </div>
-      <button type="submit" disabled={state.submitting}  className='font-source-serif-pro font-semibold text-center bg-ttt_pink_light w-full h-10'>
+      <button type="submit" disabled={state.submitting}  className='font-semibold text-center bg-ttt_pink_light w-full h-10'>
         Submit
       </button>
     </form>
+    </div>
   );
 }
 
