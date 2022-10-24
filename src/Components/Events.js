@@ -11,7 +11,7 @@ class Events extends Component {
                             </h1>
                             <hr className="w-80 md:w-7/12 rounded border-0 h-1 mt-1 mb-12 bg-ttt_blue_dark mx-auto " />
 
-                        <ul className='pl-[38%] list-disc text-lg md:text-2xl font-source-serif-pro font-semibold'>
+                        <ul className='pl-[20%] lg:pl-[38%] list-disc text-lg md:text-2xl font-source-serif-pro font-semibold'>
                             <li className='pb-2'>
                                 November 21st 2022
                             </li>
@@ -29,7 +29,7 @@ class Events extends Component {
                     </div>
                     <div className='flex-1'>
                     <iframe
-                    className='w-full'
+                    className='w-full h-full'
                         title='Threads Registration Form'
                         src="https://docs.google.com/forms/d/e/1FAIpQLSdBYXlP7IbVMRIMQtdtTy8YD3hmyerREF4hJImM-_9RKq174w/viewform?embedded=true"
                         frameborder="0"

@@ -37,8 +37,8 @@ class About extends Component {
                         <div className="font-special-elite text-3xl mr-2 flex-1">
                             Cassidy ElDarazi
                         </div>
-                        <div className="flex-1">
-                            The President
+                        <div className="flex-1 text-xl font-semibold">
+                            President
                         </div>
                     </div>
 
@@ -47,7 +47,10 @@ class About extends Component {
                             Edward Simone
                         </div>
                         <div className="flex-1">
-                            Chair Overseeing Finance
+                            <h1 className="text-xl font-semibold">
+                                Chair
+                                </h1> 
+                            Overseeing Finance
                         </div>
                     </div>
 
@@ -56,7 +59,10 @@ class About extends Component {
                             Ryan Seggie
                         </div>
                         <div className="flex-1">
-                            Chair Overseeing Communication
+                        <h1 className="text-xl font-semibold">
+                                Chair
+                                </h1>
+                            Overseeing Communication
                         </div>
                     </div>
 
@@ -65,7 +71,10 @@ class About extends Component {
                             Eddy ElDarazi
                         </div>
                         <div className="flex-1">
-                            Chair of the Board 
+                        <h1 className="text-xl font-semibold">
+                                Chair
+                                </h1>
+                            of the Board 
                         </div>
                     </div>
 
@@ -74,7 +83,10 @@ class About extends Component {
                             Ciara Lanctot
                         </div>
                         <div className="flex-1">
-                            Chair Overseeing Events
+                        <h1 className="text-xl font-semibold">
+                                Chair
+                                </h1>
+                            Overseeing Events
                         </div>
                     </div>
 
@@ -83,7 +95,10 @@ class About extends Component {
                             Rebekah Bulych
                         </div>
                         <div className="flex-1">
-                            Chair Overseeing Technical Operations
+                        <h1 className="text-xl font-semibold">
+                                Chair
+                                </h1>
+                            Overseeing Technical Operations
                         </div>
                     </div>
                 </div>
