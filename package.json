@@ -1,7 +1,7 @@
 {
+  "homepage": "https://bekahthe.dev/threads-that-thrive",
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://panfrieddupa.github.io/threads-that-thrive",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.0",
