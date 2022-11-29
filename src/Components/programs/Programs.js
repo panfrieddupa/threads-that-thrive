@@ -4,7 +4,7 @@ class Programs extends Component {
   render() {
     return (
       <div>
-        
+        All Programs
       </div>
     )
   }

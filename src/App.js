@@ -3,12 +3,18 @@ import About from "./Components/About";
 // import { Dropdown } from "flowbite-react";
 import { ReactComponent as MenuOpen } from "./img/web_ham_menu.svg";
 import { ReactComponent as MenuClose } from "./img/web_close_menu.svg";
+// import { ReactComponent as Facebook } from "./img/Social_Icons/facebook.svg"
+import { ReactComponent as Instagram } from "./img/Social_Icons/instagram.svg"
+import { ReactComponent as LinkedIn } from "./img/Social_Icons/linkedin.svg"
+import { ReactComponent as Twitter } from "./img/Social_Icons/twitter.svg"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
-// import Programs from "./Components/Programs";
+// import Programs from "./Components/programs/Programs";
 // import Donate from "./Components/Donate";
 import Events from "./Components/Events";
 import Contact from "./Components/Contact";
+// import Thrive from "./Components/programs/Thrive";
+// import Give from "./Components/programs/Give";
 // import Reviews from "./Components/Reviews";
 
 function App() {
@@ -28,23 +34,34 @@ function App() {
                                     src={require("./img/ttt_logo_thin_all_dark.png")}
                                 ></img>
                                 <div className="hidden lg:block border-x-12 border-dashed border-y-0 border-x-white px-8">
-                                <div className="flex items-center bg-white px-12">
-                                    <img
-                                        className="logo-img fill-current py-4 w-96 pr-4"
-                                        alt="Threads That Thrive logo"
-                                        src={require("./img/threadsletters_dark.png")}
-                                    ></img>
-                                    <div className="flex-row pt-6 font-special-elite text-6xl text-ttt_blue_dark ">
-                                    <h2 className="flex-1">
-                                        That
-                                    </h2>
-                                    <h2 className="flex-1">
-                                        Thrive
-                                    </h2>
+                                    <div className="flex items-center bg-white px-12">
+                                        <img
+                                            className="logo-img fill-current py-4 w-96 pr-4"
+                                            alt="Threads That Thrive logo"
+                                            src={require("./img/threadsletters_dark.png")}
+                                        ></img>
+                                        <div className="flex-row pt-6 font-special-elite text-6xl text-ttt_blue_dark ">
+                                            <h2 className="flex-1">
+                                                That
+                                            </h2>
+                                            <h2 className="flex-1">
+                                                Thrive
+                                            </h2>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
                             </Link>
+                            <div className="my-auto">
+                                <a href='https://instagram.com/threads.that.thrive' target='blank'>
+                                    <Instagram className="m-2"/>
+                                </a>
+                                <a href='https://linkedin.com/company/threads-that-thrive/about' target='blank'>
+                                    <LinkedIn className="m-2"/>
+                                </a>
+                                <a href='https://twitter.com/Threads_Canada' target='blank'>
+                                    <Twitter className="m-2"/>
+                                </a>
+                            </div>
                         </div>
                         <div class="block md:hidden">
                             <button class="flex text items-center px-2 py-1"
@@ -65,20 +82,14 @@ function App() {
                                         Home
                                     </Link>
                                 </button>
-                                {/* <div className="block mx-auto md:border md:flex-1 justify-around py-2 px-6 border-ttt_blue_dark text-ttt_pink_dark md:text-ttt_blue_600 hover:text-pink-600 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark md:bg-ttt_pink_200">
-                                    <Dropdown label="Our Programs" inline={true} arrowIcon={false} floatingArrow={false}>
-                                        <Dropdown.Item>
-                                            <Link to="/programs" className="block py-2 px-6">
-                                                Thrive
-                                            </Link>
-                                        </Dropdown.Item>
-                                        <Dropdown.Item>
-                                            <Link to="/programs" className="block py-2 px-6">
-                                                Give
-                                            </Link>
-                                        </Dropdown.Item>
-                                    </Dropdown>
-                                </div> */}
+                                {/* <span class="group relative inline-block md:border md:flex-1 border-ttt_blue_dark text-ttt_pink_dark  md:text-ttt_blue_600 hover:text-pink-600 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark md:bg-ttt_pink_200 p-2">
+                                    <button class="inline-flex font-semibold">Programs</button>
+                                    <ul class="absolute hidden pt-2 text-ttt_blue_dark md:group-hover:block z-50 w-full">
+                                        <li class=""><a class="whitespace-no-wrap block p-2 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark" href="/programs/thrive">Thrive</a></li>
+                                        <li class=""><a class="whitespace-no-wrap block p-2 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark" href="/programs/give">Give</a></li>
+                                        <li class=""><a class="whitespace-no-wrap block p-2 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark" href="/programs">All Programs</a></li>
+                                    </ul>
+                                </span> */}
                                 <button className="block md:border md:flex-1 border-ttt_blue_dark text-ttt_pink_dark md:text-ttt_blue_600 hover:text-pink-600 md:hover:text-ttt_pink_200 md:hover:bg-ttt_blue_dark md:bg-ttt_pink_200 p-2">
                                     <Link to="/about" >
                                         About Us
@@ -112,7 +123,9 @@ function App() {
                     <div className="page-container bg-white opacity-80 md:mx-auto md:w-11.5/12 p-8 md:p-16">
                         <Routes>
                             <Route exact path="/" element={<Homepage />}></Route>
-                            {/* <Route exact path="/programs" element={<Programs />}></Route> */}
+                            {/* <Route exact path="/programs" element={<Programs />}></Route>
+                            <Route exact path="/programs/thrive" element={<Thrive />}></Route>
+                            <Route exact path="/programs/give" element={<Give />}></Route> */}
                             <Route exact path="/about" element={<About />}></Route>
                             <Route exact path="/events" element={<Events />}></Route>
                             {/* <Route exact path="/donate" element={<Donate />}></Route> */}
@@ -125,35 +138,41 @@ function App() {
                         <div className="mb-0 font-special-elite">
                             <div className="h-36 md:h-52 text-sm lg:text-md md:text-md flex items-center md:justify-between">
                                 <div className="">
-                                <Link to="/">
-                                    <img
-                                        className="logo-img fill-current w-20 md:w-32"
-                                        alt="Threads That Thrive logo"
-                                        src={require("./img/ttt_logo_thin_all_dark.png")}
-                                    ></img>
-                                </Link>
+                                    <Link to="/">
+                                        <img
+                                            className="logo-img fill-current w-20 md:w-32"
+                                            alt="Threads That Thrive logo"
+                                            src={require("./img/ttt_logo_thin_all_dark.png")}
+                                        ></img>
+                                    </Link>
                                 </div>
 
                                 <div className="pl-4 flex flex-wrap">
-                                <Link to="/" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    Home
-                                </Link>
-                                {/* <Link to="/programs" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    Programs
-                                </Link> */}
-                                <Link to="/about" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    About
-                                </Link>
-                                <Link to="/events" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    Events
-                                </Link>
-                                {/* <Link to="/donate" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                    <Link to="/" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Home
+                                    </Link>
+                                    <Link to="/programs" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Programs
+                                    </Link>
+                                    <Link to="/programs/thrive" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Thrive
+                                    </Link>
+                                    <Link to="/programs/give" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Give
+                                    </Link>
+                                    <Link to="/about" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        About
+                                    </Link>
+                                    <Link to="/events" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Events
+                                    </Link>
+                                    {/* <Link to="/donate" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Donate
                                 </Link> */}
-                                <Link to="/contact" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
-                                    Contact
-                                </Link>
-                                {/* <Link to="/reviews" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                    <Link to="/contact" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                        Contact
+                                    </Link>
+                                    {/* <Link to="/reviews" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                     Testimonials
                                 </Link> */}
                                 </div>
