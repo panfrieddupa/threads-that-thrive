@@ -12,7 +12,6 @@ class Homepage extends Component {
                     We are honoured to be a part of the Hyatt's Spirit of Giving this holiday season, check it out below!
                 </h2>
 
-
                 <div>
                     <img src={require('../img/Hyatt_Spirit_of_Giving/Hyatt_ornaments_and_garland.png')}
                         alt='Colourful ornaments of red, green, and gold, hung below a silver garland'
@@ -64,8 +63,12 @@ class Homepage extends Component {
                                     each partner foundations. Donations made after their
                                     spotlight week will still be accommodated. Donate and
                                     be eligible to be gifted a <bold className='font-medium'>Sunday Brunch Buffet for
-                                        two people</bold> voucher. One lucky winner will be drawn
+                                    two people</bold> voucher. One lucky winner will be drawn
                                     each week.
+                                    <br /><br />
+                                    <bold className='font-bold text-[#960019] text-xl md:text-3xl'>
+                                        The Hyatt will be accepting donations for Threads That Thrive's between December 25 to 31, 2022
+                                    </bold>
                                 </p>
                             </span>
                             <img src={require('../img/Hyatt_Spirit_of_Giving/Hyatt_all_nonprofits.png')}
