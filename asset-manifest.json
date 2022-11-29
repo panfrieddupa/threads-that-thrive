@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.79e5a0ec.css",
-    "main.js": "/static/js/main.89ebee8a.js",
+    "main.css": "/static/css/main.8e5f668b.css",
+    "main.js": "/static/js/main.e2e8b52a.js",
     "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
     "static/media/threadsletters_dark.png": "/static/media/threadsletters_dark.622f07f1e22974df25f2.png",
+    "static/media/Hyatt_ornaments_and_garland.png": "/static/media/Hyatt_ornaments_and_garland.e991fce03cdf04afa26b.png",
     "static/media/ttt_logo_thin_all_dark.png": "/static/media/ttt_logo_thin_all_dark.c1f3a62fe329e2d28de4.png",
+    "static/media/Hyatt_QR_code.png": "/static/media/Hyatt_QR_code.50fc1c7423bf8f0e583c.png",
+    "static/media/Hyatt_spirit_of_giving.png": "/static/media/Hyatt_spirit_of_giving.d94186aacf7e9a36e7c2.png",
+    "static/media/Hyatt_all_nonprofits.png": "/static/media/Hyatt_all_nonprofits.eaa11148acb45425fd7e.png",
+    "static/media/instagram.svg": "/static/media/instagram.d3248ec2bb9e4f5df3159c190b0f1327.svg",
+    "static/media/twitter.svg": "/static/media/twitter.5902268607ae3666ca405a904c15aee2.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.02ddc5eb68e0998c338785c21500b2b3.svg",
     "static/media/web_close_menu.svg": "/static/media/web_close_menu.3b2038aaa8e5570803ed892cb8888b07.svg",
     "static/media/web_ham_menu.svg": "/static/media/web_ham_menu.5bb4bad5d980b51060eff1bcefe8aa38.svg",
     "index.html": "/index.html",
-    "main.79e5a0ec.css.map": "/static/css/main.79e5a0ec.css.map",
-    "main.89ebee8a.js.map": "/static/js/main.89ebee8a.js.map",
+    "main.8e5f668b.css.map": "/static/css/main.8e5f668b.css.map",
+    "main.e2e8b52a.js.map": "/static/js/main.e2e8b52a.js.map",
     "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79e5a0ec.css",
-    "static/js/main.89ebee8a.js"
+    "static/css/main.8e5f668b.css",
+    "static/js/main.e2e8b52a.js"
   ]
 }
