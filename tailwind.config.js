@@ -404,7 +404,8 @@ module.exports = {
           'monospace',
         ],
         'source-serif-pro': ['Source Serif Pro', 'sans-serif'],
-        'special-elite': ['Special Elite', 'sans-serif']
+        'special-elite': ['Special Elite', 'sans-serif'],
+        'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif']
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1rem' }],
