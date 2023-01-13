@@ -22,7 +22,7 @@ function App() {
 
     return (
         <div className="bg-white md:bg-blue-100 h-auto">
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div className="App">
                     <nav className="header bg-ttt_blue_light md:flex-wrap">
                         <div className="brand-box flex md:flex-shrink-0">
