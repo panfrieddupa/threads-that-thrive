@@ -1,8 +1,8 @@
 import Homepage from "./Components/Homepage";
 import About from "./Components/About";
 // import { Dropdown } from "flowbite-react";
-import { ReactComponent as MenuOpen } from "./img/web_ham_menu.svg";
-import { ReactComponent as MenuClose } from "./img/web_close_menu.svg";
+import { ReactComponent as MenuOpen } from "./img/svg/web_ham_menu.svg";
+import { ReactComponent as MenuClose } from "./img/svg/web_close_menu.svg";
 // import { ReactComponent as Facebook } from "./img/Social_Icons/facebook.svg"
 import { ReactComponent as Instagram } from "./img/Social_Icons/instagram.svg"
 import { ReactComponent as LinkedIn } from "./img/Social_Icons/linkedin.svg"
@@ -151,7 +151,7 @@ function App() {
                                     <Link to="/" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                         Home
                                     </Link>
-                                    <Link to="/programs" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
+                                    {/* <Link to="/programs" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                         Programs
                                     </Link>
                                     <Link to="/programs/thrive" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
@@ -159,7 +159,7 @@ function App() {
                                     </Link>
                                     <Link to="/programs/give" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                         Give
-                                    </Link>
+                                    </Link> */}
                                     <Link to="/about" className="md:mr-8 mr-4 flex-1 text-ttt_pink_dark font-bold hover:text-ttt_blue_dark">
                                         About
                                     </Link>

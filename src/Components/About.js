@@ -61,7 +61,7 @@ class About extends Component {
 
                     <div className="p-6 bg-ttt_blue_200 flex items-center my-2">
                         <div className="font-special-elite text-3xl mr-2 flex-1">
-                            Ryan Seggie
+                            Dee Murphy
                         </div>
                         <div className="flex-1">
                             <h1 className="text-xl font-semibold">

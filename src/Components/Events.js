@@ -47,9 +47,9 @@ class Events extends Component {
                         </h1>
                         <hr className="w-80 md:w-5/12 rounded border-0 h-1 mt-1 mb-12 bg-ttt_blue_dark mx-auto " />
 
-                <div className='w-1/3 md:w-1/2 h-64 overflow-scroll overflow-x-hidden border rounded-lg'>
-                    <h2 className="text-2xl md:text-3xl font-semibold py-4">
-                        We are honoured to have been a part of the Hyatt's Spirit of Giving for the 2022 holiday seeason, check it out below!
+                <div className='w-full lg:w-1/2 xl:w-1/3 h-64 overflow-scroll overflow-x-hidden border rounded-lg p-4'>
+                    <h2 className="text-xl md:text-2xl font-semibold py-2">
+                        We are honoured to have been a part of the Hyatt's Spirit of Giving for the 2022 holiday season, check it out below!
                     </h2>
 
                     <div>
@@ -65,7 +65,7 @@ class Events extends Component {
 
                                 <div className='hidden xs:flex-wrap sm:flex md:flex-wrap lg:flex items-center w-9/12 mx-auto'>
                                     <div className='p-4 lg:flex-1'>
-                                        <span className='text-justify font-plus-jakarta-sans font-light text-[12pt] lg:text-[14pt]'>
+                                        <span className='text-justify font-plus-jakarta-sans font-light text-[10pt] lg:text-[12pt]'>
                                             <p>Scan QR code with a
                                                 mobile phone camera
                                                 to learn more about
@@ -88,7 +88,7 @@ class Events extends Component {
                             </div>
 
                             <div className='md:flex-1 md:pt-8 lg:pt-12'>
-                                <span className='text-justify font-plus-jakarta-sans font-light md:text-[16pt] lg:text-[18pt]'>
+                                <span className='text-justify font-plus-jakarta-sans font-light md:text-[14pt] lg:text-[16pt]'>
                                     <p>
                                         A coming together of patrons, guests, hotel colleagues
                                         and local community to give joy this holiday season by
@@ -106,7 +106,7 @@ class Events extends Component {
                                             two people</bold> voucher. One lucky winner will be drawn
                                         each week.
                                         <br /><br />
-                                        <bold className='font-bold text-[#960019] text-xl md:text-3xl'>
+                                        <bold className='font-bold text-[#960019] text-lg md:text-2xl'>
                                             The Hyatt will be accepting donations for Threads That Thrive's between December 25 to 31, 2022
                                         </bold>
                                     </p>
@@ -117,7 +117,7 @@ class Events extends Component {
 
                                 <div className='sm:hidden xs:flex-wrap items-center p-4'>
                                     <div className='p-4'>
-                                        <span className='text-justify font-plus-jakarta-sans font-light text-[12pt] lg:text-[14pt]'>
+                                        <span className='text-justify font-plus-jakarta-sans font-light text-[10pt] lg:text-[12pt]'>
                                             <p>Scan QR code with a
                                                 mobile phone camera
                                                 to learn more about
